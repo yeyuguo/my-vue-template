@@ -28,3 +28,10 @@ npm test
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+## 初始化项目的架构出想
+1. /common 文件都是存放 非业务化的代码
+2. /common 公共模块，都以一个默认的入口文件导出该模块内的其他文件；
+3. 所有不同功能，都以组件化提供，无论功能多小多简单
+4. 
