@@ -1,7 +1,7 @@
 <template>
   <div>
       <Header v-bind:props_msg="headerMsg" />
-      <div v-text="bodyMsg"></div>
+      <Body v-bind:props_msg="bodyMsg" />
       <Footer v-bind:props_msg="footerMsg" />
   </div>
   
@@ -11,6 +11,7 @@
 <script>
 import Header from "./common/header";
 import Footer from "./common/footer";
+import Body from './common/body'
 export default {
   name: "Index",
   data() {
@@ -23,6 +24,7 @@ export default {
   components: {
     Header,
     Footer,
+    Body
   }
 };
 </script>

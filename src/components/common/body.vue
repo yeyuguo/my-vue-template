@@ -1,13 +1,14 @@
 <template>
-  <div>
-      <div v-text="msg"></div>
+  <div id="body">
+      <div v-text="props_msg">{{props_msg}}</div>
   </div>
 </template>
 
 
 <script>
 export default {
-  name:'body',
+  name:'Body',
+  props:['props_msg'],
   data(){
       return {
           msg:"这是内容部分"

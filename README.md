@@ -34,4 +34,5 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 1. /common 文件都是存放 非业务化的代码
 2. /common 公共模块，都以一个默认的入口文件导出该模块内的其他文件；
 3. 所有不同功能，都以组件化提供，无论功能多小多简单
-4. 
+4. 开发过程，数据存放于 localstorage 中，开发完成后，更改为 docker mongodb 里；
+
